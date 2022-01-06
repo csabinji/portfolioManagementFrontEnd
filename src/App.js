@@ -1,11 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import Login from './components/login/login';
+import Body from './components/body';
+import Navigation from './components/navigation/navigation';
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Navigation /> <br />
+      <Body />
     </div>
   );
 }

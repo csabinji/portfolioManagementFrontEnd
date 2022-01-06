@@ -12,7 +12,8 @@ export default function Login() {
 
         axios.post("http://localhost:90/userLogin", data)
             .then(res => {
-                console.log(res)
+                localStorage.setItem('token', res.data.token);
+                window.location.href = '/stocks'
             }).catch(err => {
                 console.log(err)
             });
