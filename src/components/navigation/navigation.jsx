@@ -8,7 +8,7 @@ export default function Navigation() {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/stocks">Available Stocks</a>
+                    <a class="nav-item nav-link active" href="/stocks">Transaction History</a>
                     <a class="nav-item nav-link" href="/order">Buy/Sell</a>
                     <a class="nav-item nav-link" href="/dashboard">Dashboard</a>
                     <a class="nav-item nav-link" href="/individual">Individual</a>

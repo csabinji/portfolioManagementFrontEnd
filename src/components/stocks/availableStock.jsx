@@ -6,7 +6,7 @@ export default function AvailableStocks() {
     const [stocks, setStocks] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:90/getUserStocks")
+        axios.get("http://localhost:90/transactionHistory")
             .then(res => {
                 setStocks(res.data.data)
             }).catch(err => {

@@ -8,7 +8,7 @@ export default function Order() {
     const [text, setText] = useState('');
     const [status, setStatus] = useState('buy');
     const [total, setTotal] = useState('');
-    const [price, setPrice] = useState('');
+    const [price, setPrice] = useState(0);
     const [date, setDate] = useState('');
 
     useEffect(() => {
