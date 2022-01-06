@@ -9,7 +9,6 @@ export default function AvailableStocks() {
         axios.get("http://localhost:90/getUserStocks")
             .then(res => {
                 setStocks(res.data.data)
-                console.log(stocks)
             }).catch(err => {
                 console.log(err.response)
             })
