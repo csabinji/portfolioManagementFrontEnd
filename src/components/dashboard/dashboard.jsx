@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import axios from 'axios';
+import { Link } from 'react-router-dom'
 
 export default function Dashboard() {
     const [stocks, setStocks] = useState([]);
@@ -54,7 +55,7 @@ export default function Dashboard() {
                 </tr>
                 {stocks.map((stocks) => (
                     <tr>
-                        <td>{stocks.stockName}</td>
+                        <td><Link to={'/userstock/' + stocks._id}>{stocks.stockName}</Link></td>
                         <td>{stocks.total}</td>
                         <td>{stocks.price}</td>
                         <td>{stocks.total * stocks.price}</td>
