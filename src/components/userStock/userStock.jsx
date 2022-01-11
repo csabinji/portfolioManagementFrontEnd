@@ -32,7 +32,7 @@ export default function UserStock() {
                 <td>Current Amout: {stock.currentAmount} </td>
             </tr>
             <tr>
-                <td>Overall Profit: </td>
+                <td>Overall Profit:{soldAmount.soldAmount - investment.totalInvestment} </td>
             </tr>
         </table>
     )

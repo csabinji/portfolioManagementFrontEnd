@@ -20,7 +20,7 @@ export default function AvailableStocks() {
                 <tr>
                     <th>Stock Name</th>
                     <th>Transaction Type</th>
-                    <th>Quentity</th>
+                    <th>Quantity</th>
                     <th>Amount</th>
                     <th>Transaction Date</th>
                 </tr>
