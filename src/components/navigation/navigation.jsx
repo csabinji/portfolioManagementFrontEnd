@@ -11,7 +11,6 @@ export default function Navigation() {
                     <a class="nav-item nav-link active" href="/stocks">Transaction History</a>
                     <a class="nav-item nav-link" href="/order">Buy/Sell</a>
                     <a class="nav-item nav-link" href="/dashboard">Dashboard</a>
-                    <a class="nav-item nav-link" href="/individual">Individual</a>
                 </div>
             </div>
         </nav>
